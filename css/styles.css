@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .DSMovie-card {
-        width: 360px;
+        width: 100%;
         
     }
 
@@ -67,11 +67,13 @@ h1, h2, h3, h4, h5, h6 {
 
     .DSMovie-card-description {
         background-color: var(--white);
-        padding: 10px 0 20px 0;
+        padding: 10px 20px 20px 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
         border-radius: 0 0 8px 8px;
+        min-height: 150px;
     }
 
     .DSMovie-card-description h3 {
@@ -79,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 14px;
         font-weight: 700;
         margin-bottom: 25px;
+        text-align: center;
     }
 
     .DSMovie-btn, .DSMovie-btn:hover {
