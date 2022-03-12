@@ -5,6 +5,7 @@
     --tex-grey: #4A4A4A;
     --white: #fff;
     --text-light-grey: #aaa;
+    --star-yellow: #ffbb3a; 
 }
 * {
     box-sizing: border-box;
@@ -74,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
         align-items: center;
         justify-content: space-between;
         border-radius: 0 0 8px 8px;
-        min-height: 150px;
+        height: 220px;
     }
 
     .DSMovie-card-description h3 {
@@ -83,6 +84,28 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 700;
         margin-bottom: 25px;
         text-align: center;
+    }
+    .DSMovie-card-description-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .DSMovie-card-description-bottom h4 {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--star-yellow);
+    }
+
+    .DSMovie-card-description-bottom p {
+        font-size: 12px;
+        font-weight: 400;
+        color: var(--text-light-grey);
+        margin-bottom: 10px;
+    }
+
+    .DSMovie-card-description-bottom img {
+        width: 22px;
+
     }
 
     .DSMovie-btn, .DSMovie-btn:hover {
